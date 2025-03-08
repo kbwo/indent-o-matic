@@ -222,7 +222,6 @@ function M.detect()
             setopt('expandtab', false)
         else
             setopt('expandtab', true)
-            setopt('tabstop', detected)
             setopt('softtabstop', detected)
             setopt('shiftwidth', detected)
         end
